@@ -1,7 +1,7 @@
 {
   "name": "NodeJS-Weather-CLI",
   "version": "1.0.0",
-  "description": "",
+  "description": "Weather forecasts straight from the command line",
   "main": "./server/index.js",
   "bin": {
     "weathercli": "bin/weathercli"
@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Courtney E. Scott",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^6.2.0",

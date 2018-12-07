@@ -1,4 +1,5 @@
-const minimist = require('minimist');
+const minimist = require('minimist'),
+  error = require('../utils/error');
 
 module.exports = () => {
   const args = minimist(process.argv.slice(2));
@@ -26,7 +27,7 @@ module.exports = () => {
       require('./cmds/help')(args);
       break;
     default:
-      console.error(`Please enter a valid command`);
+      error(`Please enter a valid command`);
       break;
   }
 };

@@ -1,7 +1,7 @@
 const menus = {
   main: `
 
-    outside [command] <options>
+    weathercli [command] <options>
 
     current .............. show weather for current
     forecast ........... show 10-day weather forecast
@@ -13,7 +13,7 @@ const menus = {
 
   current: `
 
-    outside current <options>
+    weathercli current <options>
 
     --location, -l ..... the location to use
     
@@ -21,7 +21,7 @@ const menus = {
 
   forecast: `
 
-    outside forecast <options>
+    weathercli forecast <options>
 
     --location, -l ..... the location to use
     `
