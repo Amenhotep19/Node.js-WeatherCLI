@@ -1,3 +1,5 @@
+![fig1](/images/fig1.png)
+
 ## Motivation
 
 Practicing building a command-line using as few libraries as possible in Node.js. Followed along with [this tutorial](https://timber.io/blog/creating-a-real-world-cli-app-with-node/#publishing-to-npm) however I did not use axios and chose to write my own requests from scratch.

@@ -5,8 +5,6 @@ const ora = require('ora'),
 module.exports = async (args) => {
   const spinner = ora().start();
 
-  console.log(args);
-
   const location =
     args.location ||
     args.l ||
