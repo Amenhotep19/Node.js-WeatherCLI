@@ -1,5 +1,5 @@
 const minimist = require('minimist'),
-  error = require('../utils/error');
+  error = require('./utils/error');
 
 module.exports = () => {
   const args = minimist(process.argv.slice(2));
