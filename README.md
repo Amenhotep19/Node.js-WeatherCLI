@@ -8,7 +8,8 @@ Practicing building a command-line using as few libraries as possible in Node.js
 2. In the command-line navigate to the root of the project folder.
 3. Enter `npm install`.
 4. Enter `nodemon`, (NOTE: if you are not using nodemon, enter `node index.js`).
-5. Use any of the following commands to get weather forecasts and updates.
+5. You will need api keys from [ipdata.co](ipdata.co). Once you have them make a `.env` at the root of the directory and add them. `IPDATA_API_KEY=<YOUR KEYS HERE>`
+6. Use any of the following commands to get weather forecasts and updates.
 
 ```
 weathercli [command] <options>

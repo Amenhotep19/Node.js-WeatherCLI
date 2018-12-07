@@ -2,7 +2,7 @@
   "name": "NodeJS-Weather-CLI",
   "version": "1.0.0",
   "description": "Weather forecasts straight from the command line",
-  "main": "./server/index.js",
+  "main": "./app/index.js",
   "bin": {
     "weathercli": "bin/weathercli"
   },
