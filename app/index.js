@@ -27,7 +27,7 @@ module.exports = () => {
       require('./cmds/help')(args);
       break;
     default:
-      error(`Please enter a valid command`);
+      error(`Please enter a valid command`, true);
       break;
   }
 };
